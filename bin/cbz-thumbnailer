@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+unzip -p "$2" | magick - -resize "x$1" "$3"
